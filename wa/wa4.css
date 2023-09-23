@@ -1,0 +1,132 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px;
+    background-color: #ccc;
+  }
+  
+  /* Selectors to be matched up with rulesets
+  
+  .card article img
+  .card footer
+  .card header
+  .card
+  
+  /* Rulesets to be matched up with selectors */
+  .card
+  {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  .card header
+  {
+    background-color: red;
+    border-radius: 1.5em 1.5em 0 0;
+    border: red;
+    height: 5em;
+    margin: 0;
+    padding: 1em;
+    box-sizing:border-box;
+    line-height: 3em;
+  }
+  .card footer
+  {
+    background-color: red;
+    border-radius: 0 0 1.5em 1.5em;
+    border: red;
+    height: 5em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2.5em;
+    
+  }
+  .card article img
+  {
+    max-height: 100%;
+    width: auto;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: red;
+    border-radius: 0 0 0 0;
+  }
+  
+  article
+  {
+    height: 12em;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+    box-sizing: border-box;
+    line-height: 1.4em;
+  }
+  h2{
+    font-size: 2em;
+    margin: 0;
+  }
+
+  p{
+    margin:0;
+    padding: 1em;
+  }
+
+  #footer{
+    font-size: 1.5em;
+  }
+
+  .card2
+  {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: pink;
+    border: 0.2em solid hotpink;
+    border-radius: 1.5em;
+  }
+  .card2 header
+  {
+    background-color: pink;
+    border-radius: 1.5em 1.5em 0 0;
+    border: pink;
+    height: 5em;
+    margin: 0;
+    padding: 1em;
+    box-sizing:border-box;
+    line-height: 3em;
+  }
+  .card2 footer
+  {
+    background-color: pink;
+    border-radius: 0 0 1.5em 1.5em;
+    border: pink;
+    height: 5em;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 2.5em;
+    
+  }
+  .card2 article img
+  {
+    max-height: 100%;
+    width: auto;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: red;
+    border-radius: 0 0 0 0;
+  }
+
+  #footer2{
+    font-size: 1.5em;
+  }
+  
