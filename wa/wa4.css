@@ -31,6 +31,7 @@ body {
   {
     background-color: red;
     border-radius: 1.5em 1.5em 0 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
     border: red;
     height: 5em;
     margin: 0;
@@ -42,6 +43,7 @@ body {
   {
     background-color: red;
     border-radius: 0 0 1.5em 1.5em;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
     border: red;
     height: 5em;
     padding: 0;
