@@ -20,15 +20,39 @@
     </div> 
 
     <h2>Page 1</h2>
-    <p>The beginning of the file is missing the proper !DOCTYPE code. Line 22(before adding the doctype change now line 24) has a missing /li. Line 28 has a missing /p. Line 34 has a missing /td. Line 40 needs a /tr. Line 41 missing the /table.</p>
+    <ul>
+        <li>The beginning of the file is missing the proper !DOCTYPE code.</li>
+        <li>Line 22(before adding the doctype change now line 24) has a missing closing tag /li. </li>
+        <li>Line 28 has a missing closing tag /p.</li>
+        <li>Line 34 has a missing closing tag /td.</li>
+        <li>Line 40 needs a closing tag /tr. </li>
+        <li>Line 41 missing the closing tag /table.</li>
+    </ul>
 
     <h2>Page 2</h2>
-    <p>Line 25 the bold element does not have a /b. On line 35 an h3 appears before an h2 and later on line 100 an h3 appears after an h6. Line 72 needs an /h6. Line 51 h3 cannot be child to b. Added the link on line 55 for segmental arch. </p>
+    <ul>
+        <li>Line 25 the bold element does not have a closing tag /b. </li>
+        <li>On line 35 an h3 appears before an h2 and later on line 100 an h3 appears after an h6. I changed all the headers to make more sense.</li>
+        <li>Line 72 needs a closing tag /h6 (before changing the headers changed to be an h2).</li>
+        <li>On line 51 h3 cannot be child to b. </li>
+        <li>Added the link on line 55 for segmental arch.</li>
+    </ul>
 
     <h2>Page 3</h2>
-    <p></p>
+    <ul>
+        <li>Each section could have been put under a parent main element. Then further divided into seperate article elements, since sections elements should only be used if nothing more specific applies.</li>
+        <li>Missing the !DOCTYPE code (the meta and link to stylesheet)</li>
+        <li>Missing the lang="en" on line 2 in the html tag.</li>
+    </ul>
 
     <h2>Page 4</h2>
-    <p>Missing !DOCTYPE tag on line 1. Images are missing alt attribute. Line 36 is missing a /td. Line 41 is missing the beginning td and the ending /td. Line 46 is missing a td before the img src.</p>
+    <ul>
+        <li>Missing !DOCTYPE tag on line 1. </li> 
+        <li>Images are missing alt attribute. </li>
+        <li>Line 36 is missing a closing tag /td. </li>
+        <li>Line 41 is missing the beginning tag td and the ending tag /td. </li>
+        <li>Line 46 is missing an opening tag td before the img src. </li>
+        <li>This is not a good use of a table this styling would be better completed with css.</li>
+    </ul>
 </body>
 </html>
