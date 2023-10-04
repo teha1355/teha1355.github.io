@@ -11,11 +11,31 @@ body {
   background: #ccc;
 }
 
+.topimage{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bottomimage{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 article {
+  margin:0;
+  padding:0;
   width: 210mm;
   height: 297mm;
   margin: 20px auto;
   position: relative;
+  background-color: white;
+  background-image: url(top-image.png), url(bottom-image.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  border-top: 1mm solid red;
+  border-bottom: 1mm solid red;
 }
 
 address {
@@ -36,6 +56,9 @@ h1 {
   padding: 44px 0;
   color: white;
   text-shadow: 1px 1px 1px black;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  filter:drop-shadow(20px, 20px);
 }
 
 /* Your CSS below here */
