@@ -1,0 +1,18 @@
+.article{
+    position: relative;
+    background-image: url(rio3.jpg), url(simone_biles.jpg);
+    background-size: 7%, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top left;
+    height: 50em;
+}
+
+.gold{
+    position:absolute;
+    left: 6.61em;
+    bottom: 0;
+    height: 3em;
+    width: 67.4em;
+    background-color: goldenrod;
+    padding-left: 1em;
+}
