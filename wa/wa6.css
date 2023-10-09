@@ -1,18 +1,24 @@
+
 .article{
-    position: relative;
-    background-image: url(rio3.jpg), url(simone_biles.jpg);
-    background-size: 7%, contain;
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom left, top left;
-    height: 50em;
+    background-image: url("rio3.jpg"), url("scoreforreal.jpg"), url("simone.jpg");
+    background-repeat: no-repeat;
+    background-size: 10% 10%, 100% 30%, 100% 100%;
+    background-position: top left, bottom left, left;
+    height: 150vh;
+    width: 65vw;
+    margin: 0;
+    padding: 0;
+    border: black;
 }
 
 .gold{
-    position:absolute;
-    left: 6.61em;
-    bottom: 0;
-    height: 3em;
-    width: 67.4em;
     background-color: goldenrod;
-    padding-left: 1em;
+    position: absolute;
+    top: 0;
+    left: 6.5vw;
+    width: 57.45vw;
+    height: 5vh;
+    margin: 1vh;
+    padding: 0.5em;
+    line-height: 2em;
 }
