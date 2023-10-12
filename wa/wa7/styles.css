@@ -1,0 +1,125 @@
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+    top: 0;
+    position: sticky;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 12.5em;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 10em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+      margin: 1em;
+  }
+
+  p{
+    margin: 0.5em;
+  }
+
+  article{
+    width: 40em;
+  }
+
+  aside{
+    width: 10em;
+  }
+
+  img{
+    width: 5em;
+  }
+
+@media screen and (max-width: 500px){
+  .logo {
+    width: 100vw;
+    margin: 0;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+
+  .feature {
+    width: 40%;
+  }
+
+  nav{
+    width: 100%;
+    margin: 0;
+  }
+  nav ul{
+    column-gap: 3%;
+  }
+  nav a {
+    padding: 0.5em 0.5em;
+  }
+
+  article{
+    width: 80%;
+  }
+  p {
+    margin: 0;
+  }
+
+  aside{
+    width: 80%;
+  }
+  img{
+    width: 10em;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+  }
+}
