@@ -1,0 +1,99 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkolivegreen;
+}
+
+h1 {
+    position: center;
+}
+
+.h1 {
+    position: center;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: tan;
+}
+
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+img{
+    width:30vw;
+    height: 30vh;
+}
+
+#red-ball{
+    background-color: greenyellow;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 30vh;
+    animation-duration: 10s; 
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes bounce {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: translateY(300%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+      }
+      10%, 30%, 50%, 70%, 90%{
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+      }
+
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}
+
+.frog {
+    height: 30vh;
+    width: 30vw;
+    margin: 0.25vw;
+    transition-property: background-image;
+    transition-delay: 0.25s;
+    transition-duration: 2s;
+    
+}
+
+.frog:hover{
+    background-image: url("toad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.text {
+    color: black;
+    margin: 0;
+    font-size: 3vw;
+    width: 30vw;
+    height: 30vh;
+    background-color: green;
+    transition-delay: 0.25s;
+    transition-duration: 1s;
+}
+
+.text:hover{
+    opacity: 0;
+}
