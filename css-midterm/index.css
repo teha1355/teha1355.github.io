@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    background-image: url("colorado_symphony_blur.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    width:100%;
+    margin: 0;
+    padding: 0;
+} 
+
+
+.header{
+    background-color: black;
+    color: white;
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+    padding: 3vh 0 3vh 0;
+    text-align: center;
+}
+
+.text{
+    font-size: 3vw;
+    box-sizing: border-box;
+
+}
+
+.event{
+    background-color: tan;
+    height: 7vw;
+    display: inline-block;
+    margin: 2vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding:0;
+}
+
+.description{
+    flex-grow: 3;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    margin:0;
+    padding: 0.5vw;
+}
+
+h4{
+    font-size: 2vw;
+    box-sizing: border-box;
+    vertical-align: middle;
+    padding: 0 0.25vw 0 0.25vw;
+}
+
+.detail{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    padding: 1vw;
+    margin: 1vw;
+}
+
+.left{
+    width: 30vw;
+    padding: 0.5vw;
+}
+
+.right{
+    width: 70vw;
+    padding: 0.5vw;
+    line-height:  30px;
+}
+
+ul{
+    list-style: none;
+}
+
