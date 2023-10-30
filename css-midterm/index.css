@@ -73,17 +73,18 @@ h4{
     color: white;
     display: flex;
     padding: 1vw;
-    margin: 1vw;
+    margin: 2vw;
 }
 
 .left{
     width: 30vw;
-    padding: 0.5vw;
+    padding: 1vw;
+    box-sizing: border-box;
 }
 
 .right{
     width: 70vw;
-    padding: 0.5vw;
+    padding: 1vw;
     line-height:  30px;
 }
 
@@ -91,8 +92,9 @@ ul{
     list-style: none;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width: 400px){
     .detail{
+        display: flex;
         flex-direction: column;
     }
 
@@ -102,5 +104,13 @@ ul{
 
     .text{
         font-size: 5vw;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%; 
     }
 }
