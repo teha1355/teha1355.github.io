@@ -69,7 +69,7 @@ class Ball {
       if (this !== ball) { //look at ball diff from current one
           const dx = this.x - ball.x;
           const dy = this.y - ball.y;
-          const distance= Math.sqrt(dx*dx + dy*dy);
+          const distance= Math.sqrt(dx*dx + dy*dy); //giving me war flash backs to calculus
 
           if(distance < this.size + ball.size){ //if overlap change color
             ball.color = this.color = randomRGB();
