@@ -2,48 +2,93 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 body{
     height: 100vh;
+    background-color: pink;
     
-    background-color: blue;
 }
 
 .info {
-    width: 100vw;
-    height: 10vh;
-    background-color: aliceblue;
+    width: 90vw;
+    height: 25vh;
+    
+    
+}
+
+.instructions {
+    margin: 5px;
+    padding: 10px;
+    width: 90vw;
+    
+    
+}
+
+.words {
+    width: 90vw;
+    margin: 5px;
+    padding: 10px
+    
+    
+}
+
+.moreBox {
+    display: flex;
+    
 }
 
 .phoneNum {
-    width: 20vw;
-    height: 25px;
+    width: 30vw;
+    height: 30px;
     background-color: yellow;
-    font-size: 25px;
+    font-size: 20px;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.15);
 
 }
 
 #resetBtn{
-    width: 30px;
-    height: 20px;
-    background-color: blueviolet;
+    
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 10px;
+    
+    background-color: #F6DEEC;
+    
+    color: #0e0e10;
+    
+    
+
 }
 
 
 .game {
     width: 90vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
-    margin: auto;
+    margin: 2vw;
+    padding: 0;
     flex-wrap: wrap;
     perspective: 1000px;
-    background-color: red;
+    justify-content: center;
+    
+    
 }
 
 .card {
-    width: calc((756px)*0.3);
-    height: calc((1057px)* 0.3);
+    width: calc((756px)*0.15);
+    height: calc((1057px)* 0.15);
     margin: 5px;
     position: relative;
     
