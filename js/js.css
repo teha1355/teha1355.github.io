@@ -6,8 +6,11 @@
 }
 
 body{
-    height: 100vh;
-    background-color: pink;
+    height: 80vh;
+    background-image: url("workpls.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     
 }
 
@@ -52,7 +55,7 @@ body{
 }
 
 #resetBtn{
-    
+    color: white;
     display: inline-block;
     outline: 0;
     border: none;
@@ -64,10 +67,25 @@ body{
     padding: 5px 10px;
     margin: 10px;
     
-    background-color: #F6DEEC;
+    background-color: black;
     
-    color: #0e0e10;
+
+}
+
+#moreBtn{
+    color: white;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
     
+    border-radius: 4px;
+    font-size: 13px;
+    height: 30px;
+    padding: 5px 10px;
+    margin: 10px;
+    
+    background-color: black;
     
 
 }
@@ -90,6 +108,7 @@ body{
     width: calc((756px)*0.15);
     height: calc((1057px)* 0.15);
     margin: 5px;
+    border-radius: 4px;
     position: relative;
     
     transform: scale(1);
@@ -102,6 +121,7 @@ body{
     width: 100%;
     height: 100%;
     position: absolute;
+    border-radius: 4.5px;
     
     backface-visibility: hidden;
 }

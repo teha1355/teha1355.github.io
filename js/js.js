@@ -3,6 +3,7 @@ const phoneNum = document.querySelector('#text');
 
 const btn = document.querySelector('#resetBtn').addEventListener('click', resetBoard);
 shuffle();
+const moreBtn=document.querySelector('#moreBtn').addEventListener('click',submit);
 
 let hasFlippedCard = false;
 let lockBoard = false;
@@ -78,6 +79,23 @@ function resetBoard () {
     numberDisplayed= "";
     shuffle();
     
+}
+
+function submit() {
+    let characters = numberDisplayed.length;
+    let L= numberDisplayed.includes("L");
+    if(characters ==0){
+        alert("Enter a valid phone number, please. You had one job get it together.");
+    }
+    else if (L==1){
+        alert("The L stands for loser which is what you are.")
+    }
+    else if (characters==10){
+        alert("Thanks, get scammed.");
+    }
+    else {
+        alert("hdsfdfh");
+    }
 }
 
 
