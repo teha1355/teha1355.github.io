@@ -28,9 +28,14 @@ function flipcard() {
 
 function checkMatch() {
     if(firstCard.dataset.framework === secondCard.dataset.framework){
-        numberDisplayed = numberDisplayed.concat(firstCard.dataset.framework);
-        console.log(numberDisplayed);
-        display(numberDisplayed);
+        if (numberDisplayed.length<10){
+            numberDisplayed = numberDisplayed.concat(firstCard.dataset.framework);
+            console.log(numberDisplayed);
+            display(numberDisplayed);
+        }
+        else if(numberDisplayed.length==10) {
+            alert("Dude, chill. Only 10 digits in a number.");
+        }
         //disableCard();
         unflipCards();
         //setTimeout(() => {
@@ -65,7 +70,7 @@ function reset() {
 
 function shuffle() {
     card.forEach(card => {
-        let randomPosition = Math.floor(Math.random() * 24);
+        let randomPosition = Math.floor(Math.random() * 40);
         card.style.order = randomPosition;
     });
 }
@@ -94,7 +99,7 @@ function submit() {
         alert("Thanks, get scammed.");
     }
     else {
-        alert("hdsfdfh");
+        alert("Enter a valid phone number, please. You had one job get it together.");
     }
 }
 
