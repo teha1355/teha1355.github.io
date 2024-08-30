@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+div{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.whole{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: wheat;
+    
+}
+
+.leftContainer{
+    
+    background-color: rgb(5, 50, 0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    height: 50%;
+    position: fixed;
+    margin: 2%;
+    border-radius: 5%;
+}
+
+.leftBottom{
+    position: fixed;
+    top: 60%;
+    background-color: rgb(5, 50, 0);
+    width: 22%;
+    height: 20%;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 5%;
+    text-align: center;
+
+}
+
+
+.rightContainer{
+    background-color: wheat;
+    width: 66%;
+    height: 100%;
+    position: relative;
+    left: 30%;
+    margin: 2%;
+}
+
+.imageOne{
+    height: 50vh;
+    width: 50vw;
+    background-image: url("phone-number.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.imageTwo{
+    height: 50vh;
+    width: 50vw;
+    background-image: url("synth.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.imageThree{
+    height: 50vh;
+    width: 50vw;
+    background-image: url("willow.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.imageThreeandHalf{
+    height: 40vh;
+    width: 50vw;
+    background-image: url("chainleaves1.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.imageFour{
+    height: 50vh;
+    width: 50vw;
+    background-image: url("type.png");
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.side{
+    display: flex;
+}
+
+.name{
+    text-align: center;
+    font-size: 4vh;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75%;
+    text-align: center;
+    font-size: 2.5vh ;
+}
